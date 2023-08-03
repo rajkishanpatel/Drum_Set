@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 6rem;
+    text-shadow: 5px 5px grey;
+}
+
+.set {
+    margin: 6% auto;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid maroon;
+    padding: 25px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.drum {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-position: center;
+    box-shadow: 4px 4px 4px 4px grey;
+
+}
+
+.w {
+    background-image: url(./images/tom1.png);
+}
+
+.a {
+    background-image: url(./images/tom2.png);
+}
+
+.s {
+    background-image: url(./images/tom3.png);
+}
+
+.d {
+    background-image: url(./images/tom4.png);
+}
+
+.j {
+    background-image: url(./images/snare.png);
+}
+
+.k {
+    background-image: url(./images/crash.png);
+}
+
+.l {
+    background-image: url(./images/kick.png);
+}
+
+.active {
+    opacity: 0.5;
+    box-shadow: 0 5px 5px 0 black;
+}
+
+@media (max-width:640px) {
+    .set {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
