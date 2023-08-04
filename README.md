@@ -1,2 +1,2 @@
 # drum_Set
-A small project using HTML CSS &amp; JS
+Project 1_HTML CSS &amp; JS
